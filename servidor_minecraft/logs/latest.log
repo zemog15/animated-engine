@@ -1,0 +1,56 @@
+[04Jan2025 03:57:37.090] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 28.2.26, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, nogui]
+[04Jan2025 03:57:37.095] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.1.0+62+5bfa59b starting: java version 11.0.25 by Ubuntu
+[04Jan2025 03:57:37.491] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[04Jan2025 03:57:37.546] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/animated-engine/servidor_minecraft/config/fml.toml is not correct. Correcting
+[04Jan2025 03:57:37.554] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
+[04Jan2025 03:57:38.141] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[04Jan2025 03:57:39.089] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[04Jan2025 03:57:39.312] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: java.lang.RuntimeException: java.lang.UnsupportedOperationException
+[04Jan2025 03:57:39.313] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:39)
+[04Jan2025 03:57:39.314] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+[04Jan2025 03:57:39.315] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+[04Jan2025 03:57:39.316] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81)
+[04Jan2025 03:57:39.316] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65)
+[04Jan2025 03:57:39.317] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63)
+[04Jan2025 03:57:39.319] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60)
+[04Jan2025 03:57:39.320] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.server.ServerMain.main(ServerMain.java:57)
+[04Jan2025 03:57:39.321] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: Caused by: java.lang.UnsupportedOperationException
+[04Jan2025 03:57:39.322] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.ClassVisitor.visitNestMemberExperimental(ClassVisitor.java:248)
+[04Jan2025 03:57:39.322] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.ClassReader.accept(ClassReader.java:651)
+[04Jan2025 03:57:39.325] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.ClassReader.accept(ClassReader.java:391)
+[04Jan2025 03:57:39.325] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformerClassWriter.computeHierarchy(TransformerClassWriter.java:83)
+[04Jan2025 03:57:39.326] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformerClassWriter.access$100(TransformerClassWriter.java:35)
+[04Jan2025 03:57:39.327] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformerClassWriter$SuperCollectingVisitor.visit(TransformerClassWriter.java:129)
+[04Jan2025 03:57:39.328] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.ClassReader.accept(ClassReader.java:525)
+[04Jan2025 03:57:39.329] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.ClassReader.accept(ClassReader.java:391)
+[04Jan2025 03:57:39.330] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformerClassWriter.computeHierarchy(TransformerClassWriter.java:83)
+[04Jan2025 03:57:39.331] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformerClassWriter.access$100(TransformerClassWriter.java:35)
+[04Jan2025 03:57:39.332] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformerClassWriter$SuperCollectingVisitor.visit(TransformerClassWriter.java:129)
+[04Jan2025 03:57:39.332] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.ClassReader.accept(ClassReader.java:525)
+[04Jan2025 03:57:39.334] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.ClassReader.accept(ClassReader.java:391)
+[04Jan2025 03:57:39.335] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformerClassWriter.computeHierarchy(TransformerClassWriter.java:83)
+[04Jan2025 03:57:39.336] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformerClassWriter.access$100(TransformerClassWriter.java:35)
+[04Jan2025 03:57:39.337] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformerClassWriter$SuperCollectingVisitor.visit(TransformerClassWriter.java:129)
+[04Jan2025 03:57:39.347] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.ClassReader.accept(ClassReader.java:525)
+[04Jan2025 03:57:39.349] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.ClassReader.accept(ClassReader.java:391)
+[04Jan2025 03:57:39.351] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformerClassWriter.computeHierarchy(TransformerClassWriter.java:83)
+[04Jan2025 03:57:39.352] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformerClassWriter.getSupers(TransformerClassWriter.java:54)
+[04Jan2025 03:57:39.355] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformerClassWriter.getCommonSuperClass(TransformerClassWriter.java:99)
+[04Jan2025 03:57:39.357] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.SymbolTable.addMergedType(SymbolTable.java:1209)
+[04Jan2025 03:57:39.358] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.Frame.merge(Frame.java:1293)
+[04Jan2025 03:57:39.361] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.Frame.merge(Frame.java:1175)
+[04Jan2025 03:57:39.362] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.MethodWriter.computeAllFrames(MethodWriter.java:1604)
+[04Jan2025 03:57:39.364] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.MethodWriter.visitMaxs(MethodWriter.java:1540)
+[04Jan2025 03:57:39.366] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.tree.MethodNode.accept(MethodNode.java:807)
+[04Jan2025 03:57:39.368] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.tree.MethodNode.accept(MethodNode.java:687)
+[04Jan2025 03:57:39.369] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.tree.ClassNode.accept(ClassNode.java:436)
+[04Jan2025 03:57:39.371] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:121)
+[04Jan2025 03:57:39.372] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:241)
+[04Jan2025 03:57:39.373] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:128)
+[04Jan2025 03:57:39.374] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98)
+[04Jan2025 03:57:39.375] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+[04Jan2025 03:57:39.376] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at java.base/java.lang.Class.forName0(Native Method)
+[04Jan2025 03:57:39.377] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at java.base/java.lang.Class.forName(Class.java:398)
+[04Jan2025 03:57:39.378] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:51)
+[04Jan2025 03:57:39.378] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+[04Jan2025 03:57:39.379] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	... 7 more
